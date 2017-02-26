@@ -1,0 +1,34 @@
+<ion-view title="BM01 Fault Details" id="page8">
+  <ion-content padding="true" class="has-header">
+    <form id="bM01FaultDetails-form3" class="list">
+      <label class="item item-select" id="bM01FaultDetails-select2">
+        <span class="input-label">Select</span>
+        <select>
+          <option>Power Failure</option>
+          <option>Mould Change</option>
+          <option>Electrical</option>
+          <option>Mild Break down</option>
+          <option>Labour</option>
+          <option>Setting</option>
+          <option>Material</option>
+          <option>Plan Stop</option>
+        </select>
+      </label>
+      <label class="item item-input item-stacked-label" id="bM01FaultDetails-input5" name="date">
+        <span class="input-label">Start Date Time</span>
+        <input type="date" placeholder="15 February 2017 09:52:07">
+      </label>
+      <ion-item class="range range-positive" id="bM01FaultDetails-range1">
+        <input type="range" value="50" min="0" max="360" step="1">
+      </ion-item>
+      <label class="item item-input item-stacked-label" id="bM01FaultDetails-input9" name="date">
+        <span class="input-label">End Date Time</span>
+        <input type="date" placeholder="15 February 2017 10:52:07">
+      </label>
+      <label class="item item-input" id="bM01FaultDetails-input6">
+        <input type="text" placeholder="Some Notes">
+      </label>
+      <a ui-sref="tabsController.bM01Faults" id="bM01FaultDetails-button9" class="button button-positive  button-block">Save</a>
+    </form>
+  </ion-content>
+</ion-view>
